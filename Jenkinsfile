@@ -1,5 +1,5 @@
 Pipeline{
-  agent any
+  agent any{
     stage("build")
     {
         echo "build"
@@ -16,4 +16,5 @@ Pipeline{
     {
         echo "release"
     }
+  }
 }
